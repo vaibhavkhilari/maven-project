@@ -3,7 +3,7 @@ agent any
 {stages ('git clone')
 {
 steps
-{git 'https://github.com/vaibhavkhilari/maven-project.git'
+{git 'https://github.com/vaibhavkhilari/maven-project'
 }
 }
 }
