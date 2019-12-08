@@ -10,7 +10,7 @@ steps
 }
 { stage ('compile code')
 { steps {
-  withMaven(jdk: 'Locak-jdk', maven: 'local-maven')
+  withMaven(jdk: 'local-jdk', maven: 'local-maven') {
   { sh 'mvn compile'}}}
 }
 }
