@@ -1,6 +1,7 @@
 pipeline{
 agent any
-{stages ('git clone')
+ stages
+{stage ('git clone')
 {
 steps
 {git 'https://github.com/govind-pawar/maven-project.git'
